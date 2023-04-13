@@ -8,9 +8,6 @@ chat_id = 441809625 # Ваш chat ID, не меняйте название пе�
 def solution(x_success: int, 
              x_cnt: int, 
              y_success: int, 
-             y_cnt: int) -> bool:def solution(x_success: int, 
-             x_cnt: int, 
-             y_success: int, 
              y_cnt: int) -> bool:
     
     _x = x_success /  x_cnt
