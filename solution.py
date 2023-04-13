@@ -16,7 +16,7 @@ def solution(x_success: int,
     diff = np.sqrt((_x * (1 - _x) / x_cnt) + (_y * (1 - _y) / y_cnt))
     
     temp = abs(_y - _x) / diff
-    temp_crit = norm.ppf(1-0.04/2)
+    temp_crit = norm.ppf(1-0.04)
     
   
     return (temp > temp_crit)
